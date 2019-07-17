@@ -1,0 +1,29 @@
+{
+    "name": "webassembly/php",
+    "description": "WebAssembly PHP standard API",
+    "keywords": ["webassembly"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "WebAssembly Working Group",
+            "homepage": "https://webassembly.org/"
+        },
+        {
+            "name": "Ivan Enderlin",
+            "email": "ivan.enderlin@hoa-project.net"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Webassembly\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.0.x-dev"
+        }
+    }
+}
